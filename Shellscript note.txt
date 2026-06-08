@@ -1,0 +1,29 @@
+write a shellscript to find weater the given number is even or odd
+shellscript to find the factorial of a number
+disk usage
+Cpu utilization
+
+
+
+
+Admin@DESKTOP-EMKECK1 MINGW64 ~/devops
+$
+/c/Users/Admin/devops
+find "$DIR" -type f -mtime +30 
+rm -f
+awk -F " " '{print $(NF-1)}' filename
+awk -F " " '$2==5 {print $1}' "$File"
+grep -i "5$" cust | cut -d "," -f1 / 5star rating
+
+ping -c 4 "$IP" > /dev/null/ 2>&1
+
+scp "$Source_file" "${RemoteUser}@${RemoteHost}:${RemoteDir}"
+
+
+rsync -avz "$Sourcefile" "${RemoteUser}@${RemoteHost}:${RemoteDir}"/data_${DATE}.txt"
+if [ $? -eq 0 ]
+then
+        echo "backup completed successfully at $(date)"
+else
+        echo "backup fialed at $(date)"
+        fi
